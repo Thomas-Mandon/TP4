@@ -1,10 +1,5 @@
 #include "Voyant.h"
 
-Voyant::Voyant()
-{
-
-}
-
 Voyant::Voyant(Couleur color, Etat state): myColor(color), myState(state)
 {
 

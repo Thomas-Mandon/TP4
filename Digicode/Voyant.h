@@ -10,8 +10,7 @@ class Voyant
     Couleur myColor;
     Etat myState;
 public:
-    Voyant();
-    Voyant(Couleur color, Etat state);
+    Voyant(Couleur color = rouge, Etat state = eteint);
     std::string getStatut(void) const;
     void allumer();
     void eteindre();

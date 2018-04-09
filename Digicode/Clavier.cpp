@@ -1,4 +1,5 @@
 #include "Clavier.h"
+#include <iostream>
 #include "kbhit.h"
 
 Clavier::Clavier()
@@ -8,6 +9,7 @@ Clavier::Clavier()
 
 signed Clavier::saisirChiffre() const
 {
-    if (!_kbhit()) return -1;
-    return _kbhit();
+    signed c = _kbhit();
+    if (c == 0) return -1;
+    return c;
 }
