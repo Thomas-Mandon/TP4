@@ -2,7 +2,10 @@
 #define VOYANT_H
 #include <string>
 
-enum Couleur {rouge = 1, vert = 0};
+namespace nsDigicode
+{
+
+enum Couleur {rouge = 0, vert = 1};
 enum Etat {allume = 1, eteint = 0};
 
 class Voyant
@@ -15,5 +18,7 @@ public:
     void allumer();
     void eteindre();
 };
+
+}
 
 #endif // VOYANT_H

@@ -1,12 +1,13 @@
 #include <iostream>
-#include <EasyAssert.h>
-#include <Capteur.h>
-#include <Clavier.h>
-#include <Voyant.h>
-#include <Alarme.h>
-#include <unistd.h>
+#include "EasyAssert.h"
+#include "Capteur.h"
+#include "Clavier.h"
+#include "Voyant.h"
+#include "Alarme.h"
+#include "unistd.h"
 
 using namespace std;
+using namespace nsDigicode;
 
 void test_methods(void)
 {

@@ -1,5 +1,8 @@
 #include "Voyant.h"
 
+namespace nsDigicode
+{
+
 Voyant::Voyant(Couleur color, Etat state): myColor(color), myState(state)
 {
 
@@ -19,4 +22,6 @@ void Voyant::allumer()
 void Voyant::eteindre()
 {
     myState = eteint;
+}
+
 }

@@ -14,7 +14,9 @@ SOURCES += \
     Capteur.cpp \
     Clavier.cpp \
     main.cpp \
-    Voyant.cpp
+    Voyant.cpp \
+    ObjetTempo.cpp \
+    Porte.cpp
 
 HEADERS += \
     Archivage.h \
@@ -27,4 +29,5 @@ HEADERS += \
     Capteur.h \
     EasyAssert.h \
     Clavier.h \
-    Voyant.h
+    Voyant.h \
+    Porte.h
