@@ -1,5 +1,5 @@
-#include "Clavier.h"
 #include <iostream>
+#include "Clavier.h"
 #include "kbhit.h"
 
 namespace nsDigicode
